@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: navy;
+}
+h1 {
+  font-family: "Yeon Sung", cursive;
+  color: goldenrod;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+div.container {
+  display: grid;
+  grid-template-columns: 200px 200px;
+  grid-template-rows: 200px 200px;
+  gap: 15px;
+  justify-content: center;
+}
+
+.box {
+  border: 10px solid black;
+  border-radius: 50px;
+}
+
+#green {
+  background-color: green;
+}
+#red {
+  background-color: red;
+}
+#yellow {
+  background-color: yellow;
+}
+#blue {
+  background-color: blue;
+}
+
+.pressed {
+  background-color: white !important;
+  box-shadow: 0 0 8px rgba(255, 255, 255, 0.8);
+}
+
+.game-over{
+  background-color: red;
+}
